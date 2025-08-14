@@ -1,0 +1,355 @@
+#box{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 1100px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 40px;
+}
+#box3{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    height: 1600px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 40px;
+}
+#box4{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 4000px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box5{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 2900px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#box6{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 2400px;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#mi1{
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    background-image: url(images/menu-img/1.png);
+    background-size: cover;
+    margin-top: 150px;
+    
+}
+#mi2{
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    background-image: url(images/menu-img/2.png);
+    background-size: cover;
+    margin-top: 150px;
+}
+#mi3{
+    height: 700px;
+    width: 700px;
+    border: 1px solid black;
+    background-image: url(images/menu-img/3.png);
+    background-size: cover;
+    margin-top: 250px;
+}
+
+#m1h1{
+    text-align: center;
+}
+
+#hf{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+#m1img1{
+    background-image: url(/images/starts/paneer.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m1img2{
+    background-image: url(/images/starts/kesar.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m1img3{
+    background-image: url(/images/starts/Corn\ Chaat.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m1img4{
+    background-image: url(/images/starts/Vegetable\ Spring\ Rolls.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+
+#opt1{
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+}
+button{
+    border: 2px solid black;
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+/* 2 */
+#m2img1{
+    background-image: url(images/soup/Tomato\ Soup.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m2img2{
+    background-image: url(/images/soup/Greek\ Salad.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m2img3{
+    background-image: url(/images/soup/Beetroot\ Salad.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m2img4{
+    background-image: url(/images/soup/Vegetable\ Salad.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#menu1,#menu2,#menu3,#menu4{
+    font-size: 20px;
+    padding: 20px;
+    text-decoration:underline;
+
+}
+#exit{
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 50px;
+
+    
+}
+
+/* m3 */
+#m3img1{
+    background-image: url(images/main-course/Paneer\ Butter\ Masala.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m3img2{
+    background-image: url(images/main-course/Dal\ Tadka.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m3img3{
+    background-image: url(images/main-course/Chole\ Bhature.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m3img4{
+    background-image: url(images/main-course/Vegetable\ Kofta\ Curry.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m3img5{
+    background-image: url(images/main-course/Stuffed\ Capsicum.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+#m3img6{
+    background-image: url(images/main-course/Veg\ Jaipuri.png);
+    width: 200px;
+    height: 120px;
+    background-size: cover;
+}
+/* m4 */
+
+#m4img1{
+    background-image: url(/images/Specials/Rose\ Falooda.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img2{
+    background-image: url(/images/Specials/Malai\ Kofta\ Royal.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img3{
+    background-image: url(/images/Specials/Tandoori\ Broccoli.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img4{
+    background-image: url(/images/Specials/Kesar\ Badam\ Milk.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img5{
+    background-image: url(/images/Specials/Paneer\ Tikka\ Biryani.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img6{
+    background-image: url(/images/Specials/Zafrani\ Veg\ Biryani.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m4img7{
+    background-image: url(/images/Specials/Kadhai\ Paneer.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+/* m5 */
+#m5img1{
+    background-image: url(/images/Desserts/Gulab\ Jamun.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m5img2{
+    background-image: url(/images/Desserts/Rasmalai.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m5img3{
+    background-image: url(/images/Desserts/Fruit\ Custard.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m5img4{
+    background-image: url(/images/Desserts/Matka\ Kulfi.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+#m5img5{
+    background-image: url(/images/Desserts/Chocolate\ Lava\ Cake.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+
+/* 6 */
+#m6img1{
+    background-image: url(/images/Beverages/Masala\ Chai.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#m6img2{
+    background-image: url(/images/Beverages/Filter\ Coffee.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#m6img3{
+    background-image: url(/images/Beverages/Fresh\ Lime\ Soda.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#m6img4{
+    background-image: url(/images/Beverages/Mojito\ Cooler.png);
+    width: 250px;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+#placeorder1{
+    align-self: last baseline;
+    font-size: 20px;
+    width: 200px;
+}
+
+#disr,#dism,#dist,#disk,#disz,#diskp,#dispt,#disgj,#dis,#disras,#disfc,#dismk,#disclc{
+color: green;
+}
+#dismc,#disfc,#disfls,#dismoc,#dissp,#dissm,#dissc,#dissv,#disst,#dissg,#dissb,#dissvs{
+    color: green;
+}
+#disspbm,#dissdt,#disscb,#dissvkc,#disssc,#dissvj{
+    color: green;
+}
+#odis1,#odis2,#odis3,#odis4,#odis5,#odis6{
+    color: green;
+    margin-top: 10px;
+}
