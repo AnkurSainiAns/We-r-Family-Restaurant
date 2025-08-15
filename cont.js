@@ -10,7 +10,7 @@ submitcEl.addEventListener("click",function(){
         cdisEl.textContent="please, Fill in the data before submitting it"
     }
     else{
-        alert("We will contact you soon ⌛")
-        cdisEl.textContent="We will contact you soon ⌛"
+        alert("We will contact you soon..")
+        cdisEl.textContent="We will contact you soon.."
     }
 })

@@ -10,8 +10,8 @@ subEl.addEventListener("click", function () {
     }
     else {
         alert("Registration Successfully");
-        // space1El.innerHTML = "<p> Registration Successfully 😄</p>";
-        space1El.textContent = "Registration Successfully 😄"
+        // space1El.innerHTML = "<p> Registration Successfully </p>";
+        space1El.textContent = "Registration Successfully "
     }
 })
 let space3El = document.getElementById("space3")
@@ -32,11 +32,11 @@ submiEl.addEventListener("click", function () {
         selectoption5 === "" &&
         selectoption6 === ""
     ) {
-        alert("Please select at least one option ☹️");
-        space3El.textContent = "Please select at least one option ☹️";
+        alert("Please select at least one option ");
+        space3El.textContent = "Please select at least one option ";
     }
     else {
-        alert("Thank You for placing order 😍");
+        alert("Thank You for placing order ");
         let orderList = [selectoption1, selectoption2, selectoption3, selectoption4, selectoption5, selectoption6].filter(opt => opt !== "").join(", ");
         space3El.textContent = "You ordered: " + orderList;
     }

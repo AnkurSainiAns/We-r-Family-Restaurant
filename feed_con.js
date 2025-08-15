@@ -11,8 +11,8 @@ fsubmitEl.addEventListener("click",function(){
     fdisEl.textContent="please, Fill in the data before submitting it"
    }
    else{
-    alert("The data has been successfully submitted 😄")
-    fdisEl.textContent="feedback has been successfully submitted 😄"
+    alert("The data has been successfully submitted ")
+    fdisEl.textContent="feedback has been successfully submitted "
    }
 })
 

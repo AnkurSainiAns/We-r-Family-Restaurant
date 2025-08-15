@@ -58,8 +58,8 @@ placeorder2El.addEventListener("click", function () {
         odis2El.textContent = "please select at lest one item"
     }
     else {
-        alert("Order Place Successfully 😄")
-        odis2El.textContent = "Order Place Successfully 😄"
+        alert("Order Place Successfully ")
+        odis2El.textContent = "Order Place Successfully "
 
     }
 })

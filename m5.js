@@ -6,8 +6,7 @@ let pricegj = 25
 qntaddgjEl.addEventListener("click", function () {
     quantitygj++
     let totalpricegj = quantitygj * pricegj
-    disgjEl.textContent = `quantity - ${quantitygj} , price = ₹
- ${totalpricegj}`
+    disgjEl.textContent = `Quantity ${quantitygj}, Price ${totalpricegj}`
 })
 
 // Rasmalai
@@ -18,8 +17,7 @@ let priceras = 40
 qntaddrasEl.addEventListener("click", function () {
     quantityras++
     let totalpriceras = quantityras * priceras
-    disrasEl.textContent = `quantity - ${quantityras} , price = ₹
- ${totalpriceras}`
+    disrasEl.textContent = `Quantity ${quantityras}, Price ₹${totalpriceras}`
 })
 
 // Fruit Custard
@@ -30,8 +28,7 @@ let pricefc = 25
 qntaddfcEl.addEventListener("click", function () {
     quantityfc++
     let totalpricefc = quantityfc * pricefc
-    disfcEl.textContent = `quantity - ${quantityfc} , price = ₹
- ${totalpricefc}`
+    disfcEl.textContent = `Quantity ${quantityfc}, Price ₹${totalpricefc}`
 })
 // Matka Kulfi
 let qntaddmkEl = document.getElementById("qntaddmk")
@@ -41,8 +38,7 @@ let pricemk = 80
 qntaddmkEl.addEventListener("click", function () {
     quantitymk++
     let totalpricemk = quantitymk * pricemk
-    dismkEl.textContent = `quantity - ${quantitymk} , price = ₹
- ${totalpricemk}`
+    dismkEl.textContent = `Quantity ${quantitymk}, Price ₹${totalpricemk}`
 })
 // Chocolate Lava Cake
 let qntaddclcEl = document.getElementById("qntaddclc")
@@ -52,8 +48,7 @@ let priceclc = 190
 qntaddclcEl.addEventListener("click", function () {
     quantityclc++
     let totalpriceclc = quantityclc * priceclc
-    disclcEl.textContent = `quantity - ${quantityclc} , price = ₹
- ${totalpriceclc}`
+    disclcEl.textContent = `Quantity ${quantityclc}, Price ₹${totalpriceclc}`
 })
 
 let placeorder5El = document.getElementById("placeorder5")
@@ -64,8 +59,8 @@ placeorder5El.addEventListener("click", function () {
         odis5El.textContent = "please select at lest one item"
     }
     else {
-        alert("Order Place Successfully 😄")
-        odis5El.textContent = "Order Place Successfully 😄"
+        alert("Order Place Successfully ")
+        odis5El.textContent = "Order Place Successfully "
 
     }
 })
@@ -75,10 +70,60 @@ let clr5El = document.getElementById("clr5")
 clr5El.addEventListener("click", function () {
     console.log("click ho rha hai")
     disgjEl.textContent = ""
+    quantitygj = 3
+    pricegj = 25
     disrasEl.textContent = ""
+    quantityras = 1
+    priceras = 40
     disfcEl.textContent = ""
+    quantityfc = 1
+    pricefc = 25
     dismkEl.textContent = ""
+    quantitymk = 0
+    pricemk = 80
     disclcEl.textContent = ""
+    quantityclc = 0
+    priceclc = 190
     odis5El.textContent = ""
 
+})
+
+let clrgjEl = document.getElementById("clrgj")
+clrgjEl.addEventListener("click", function () {
+    console.log("click ho rha hai")
+    disgjEl.textContent = ""
+    quantitygj = 3
+    pricegj = 25
+})
+
+let clrrasEl = document.getElementById("clrras")
+clrrasEl.addEventListener("click", function () {
+    console.log("click ho rha hai")
+    disrasEl.textContent = ""
+    quantityras = 1
+    priceras = 40
+})
+
+let clrfcEl = document.getElementById("clrfc")
+clrfcEl.addEventListener("click", function () {
+    console.log("click ho rha hai")
+    disfcEl.textContent = ""
+    quantityfc = 1
+    pricefc = 25
+})
+
+let clrmkEl = document.getElementById("clrmk")
+clrmkEl.addEventListener("click", function () {
+    console.log("click ho rha hai")
+    dismkEl.textContent = ""
+    quantitymk = 0
+    pricemk = 80
+})
+
+let clrclcEl = document.getElementById("clrclc")
+clrclcEl.addEventListener("click", function () {
+    console.log("click ho rha hai")
+    disclcEl.textContent = ""
+    quantityclc = 0
+    priceclc = 190
 })
