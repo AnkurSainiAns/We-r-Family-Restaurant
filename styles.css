@@ -5,6 +5,122 @@
     gap: 10px;
 }
 
+/* Responsive Styles */
+@media (max-width: 900px) {
+    #slider {
+        width: 100%;
+        height: 150px;
+        flex-direction: column;
+        gap: 5px;
+    }
+    #reg-img {
+        width: 100%;
+        height: 300px;
+        margin-left: 0;
+    }
+    #reg {
+        flex-direction: column;
+        gap: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #menu {
+        flex-direction: column;
+        gap: 40px;
+    }
+    #menu-img {
+        width: 100%;
+        height: 200px;
+        margin-top: 10px;
+    }
+    #vid {
+        width: 100%;
+        height: 200px;
+    }
+    #Reviews {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #temp {
+        flex-direction: column;
+        gap: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+    #quick-link {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #logo {
+        width: 100%;
+        height: 120px;
+        margin: 10px 0;
+    }
+    #viddo {
+        width: 100%;
+        margin: 10px 0;
+    }
+    #heading1 {
+        flex-direction: column;
+        gap: 10px;
+    }
+    nav {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        margin-right: 0;
+    }
+    #contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+    #contact-viddo {
+        width: 100%;
+        height: 200px;
+    }
+    #epoint {
+        flex-direction: column;
+        margin-left: 0;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+    #aboutus {
+        font-size: 28px;
+    }
+    #about {
+        font-size: 16px;
+        margin: 10px;
+    }
+    #reg-had {
+        font-size: 20px;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    #reg-img {
+        height: 180px;
+    }
+    #menu-img {
+        height: 120px;
+    }
+    #vid {
+        height: 120px;
+    }
+    #logo {
+        height: 80px;
+    }
+    #viddo {
+        height: 120px;
+    }
+    #contact-viddo {
+        height: 120px;
+    }
+}
+
 #i {
     border: 5px solid yellow;
     box-shadow: blue 0px 0px 10px;
