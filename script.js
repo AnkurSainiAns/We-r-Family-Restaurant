@@ -59,7 +59,7 @@ subbEl.addEventListener("click", function () {
 
 // google screen
 let screenEl = document.getElementById("screen")
-screenEl.textContent = "we'r family Restaurant"
+screenEl.textContent = "we'r family"
 
 // contact
 document.addEventListener("DOMContentLoaded", function () {
