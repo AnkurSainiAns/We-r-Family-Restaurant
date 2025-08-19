@@ -99,25 +99,25 @@ body{
     margin-top: 30px;
 }
 #m1img1{
-    background-image: url(/images/starts/paneer.png);
+    background-image: url(images/starts/paneer.png);
     width: 200px;
     height: 120px;
     background-size: cover;
 }
 #m1img2{
-    background-image: url(/images/starts/kesar.png);
+    background-image: url(images/starts/kesar.png);
     width: 200px;
     height: 120px;
     background-size: cover;
 }
 #m1img3{
-    background-image: url(/images/starts/Corn\ Chaat.png);
+    background-image: url(images/starts/Corn\ Chaat.png);
     width: 200px;
     height: 120px;
-    background-size: cover;
+    background-size: cover;/
 }
 #m1img4{
-    background-image: url(/images/starts/Vegetable\ Spring\ Rolls.png);
+    background-image: url(images/starts/Vegetable\ Spring\ Rolls.png);
     width: 200px;
     height: 120px;
     background-size: cover;
@@ -148,19 +148,19 @@ button{
     background-size: cover;
 }
 #m2img2{
-    background-image: url(/images/soup/Greek\ Salad.png);
+    background-image: url(images/soup/Greek\ Salad.png);
     width: 200px;
     height: 120px;
     background-size: cover;
 }
 #m2img3{
-    background-image: url(/images/soup/Beetroot\ Salad.png);
+    background-image: url(images/soup/Beetroot\ Salad.png);
     width: 200px;
     height: 120px;
     background-size: cover;
 }
 #m2img4{
-    background-image: url(/images/soup/Vegetable\ Salad.png);
+    background-image: url(images/soup/Vegetable\ Salad.png);
     width: 200px;
     height: 120px;
     background-size: cover;
@@ -220,49 +220,49 @@ gap: 50px;
 /* m4 */
 
 #m4img1{
-    background-image: url(/images/Specials/Rose\ Falooda.png);
+    background-image: url(images/Specials/Rose\ Falooda.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img2{
-    background-image: url(/images/Specials/Malai\ Kofta\ Royal.png);
+    background-image: url(images/Specials/Malai\ Kofta\ Royal.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img3{
-    background-image: url(/images/Specials/Tandoori\ Broccoli.png);
+    background-image: url(images/Specials/Tandoori\ Broccoli.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img4{
-    background-image: url(/images/Specials/Kesar\ Badam\ Milk.png);
+    background-image: url(images/Specials/Kesar\ Badam\ Milk.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img5{
-    background-image: url(/images/Specials/Paneer\ Tikka\ Biryani.png);
+    background-image: url(images/Specials/Paneer\ Tikka\ Biryani.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img6{
-    background-image: url(/images/Specials/Zafrani\ Veg\ Biryani.png);
+    background-image: url(images/Specials/Zafrani\ Veg\ Biryani.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m4img7{
-    background-image: url(/images/Specials/Kadhai\ Paneer.png);
+    background-image: url(images/Specials/Kadhai\ Paneer.png);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -271,35 +271,35 @@ gap: 50px;
 
 /* m5 */
 #m5img1{
-    background-image: url(/images/Desserts/Gulab\ Jamun.png);
+    background-image: url(images/Desserts/Gulab\ Jamun.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m5img2{
-    background-image: url(/images/Desserts/Rasmalai.png);
+    background-image: url(images/Desserts/Rasmalai.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m5img3{
-    background-image: url(/images/Desserts/Fruit\ Custard.png);
+    background-image: url(images/Desserts/Fruit\ Custard.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m5img4{
-    background-image: url(/images/Desserts/Matka\ Kulfi.png);
+    background-image: url(images/Desserts/Matka\ Kulfi.png);
     width: 250px;
     height: 200px;
     background-size: cover;
     margin-top: 20px;
 }
 #m5img5{
-    background-image: url(/images/Desserts/Chocolate\ Lava\ Cake.png);
+    background-image: url(images/Desserts/Chocolate\ Lava\ Cake.png);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -309,7 +309,7 @@ gap: 50px;
 
 /* 6 */
 #m6img1{
-    background-image: url(/images/Beverages/Masala\ Chai.png);
+    background-image: url(images/Beverages/Masala\ Chai.png);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -317,7 +317,7 @@ gap: 50px;
 }
 
 #m6img2{
-    background-image: url(/images/Beverages/Filter\ Coffee.png);
+    background-image: url(images/Beverages/Filter\ Coffee.png);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -325,7 +325,7 @@ gap: 50px;
 }
 
 #m6img3{
-    background-image: url(/images/Beverages/Fresh\ Lime\ Soda.png);
+    background-image: url(images/Beverages/Fresh\ Lime\ Soda.png);
     width: 250px;
     height: 200px;
     background-size: cover;
@@ -333,7 +333,7 @@ gap: 50px;
 }
 
 #m6img4{
-    background-image: url(/images/Beverages/Mojito\ Cooler.png);
+    background-image: url(images/Beverages/Mojito\ Cooler.png);
     width: 250px;
     height: 200px;
     background-size: cover;
